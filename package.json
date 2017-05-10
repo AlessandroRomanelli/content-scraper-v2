@@ -1,0 +1,24 @@
+{
+  "name": "content-scraper-v2",
+  "version": "1.0.0",
+  "description": "A website scraper to retrieve data from a shirt website",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlessandroRomanelli/content-scraper-v2.git"
+  },
+  "author": "Alessandro Romanelli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlessandroRomanelli/content-scraper-v2/issues"
+  },
+  "homepage": "https://github.com/AlessandroRomanelli/content-scraper-v2#readme",
+  "dependencies": {
+    "json2csv": "^3.7.3",
+    "website-scraper": "^2.4.0"
+  }
+}
